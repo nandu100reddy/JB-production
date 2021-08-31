@@ -4,11 +4,11 @@ MAINTAINER Abhishek Modi
 
 RUN echo "Tryin to build my first application"
 
+RUN npm install
+
 WORKDIR /var/www
 
 COPY . /var/www
-
-RUN npm install
 
 EXPOSE 3000
 
