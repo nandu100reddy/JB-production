@@ -4,9 +4,9 @@ MAINTAINER Abhishek Modi
 
 RUN echo "Tryin to build my first application"
 
-RUN npm install
-
 WORKDIR /var/www
+
+RUN npm install
 
 COPY . /var/www
 
