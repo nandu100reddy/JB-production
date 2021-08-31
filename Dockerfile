@@ -6,9 +6,9 @@ RUN echo "Tryin to build my first application"
 
 WORKDIR /var/www
 
-RUN npm install
-
 COPY . /var/www
+
+RUN npm install
 
 EXPOSE 3000
 
