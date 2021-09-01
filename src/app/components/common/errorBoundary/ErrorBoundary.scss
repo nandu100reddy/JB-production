@@ -1,0 +1,9 @@
+.unauthorized_Error{
+  h1,h5{
+    display: flex;
+    color: $error-color;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,388 @@
+/* CSS for New Records Start here */
+
+.NewRecord {
+  font-size: 14px !important;
+}
+
+h3.FormPartHead {
+  padding: 6px 15px;
+  background: #f7f7f7;
+  font-size: 17px;
+  font-weight: bold;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1);
+  margin-bottom: 22px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.NewRecord {
+  font-size: 14px !important;
+  width: 100%;
+  margin: 0 auto;
+  border: solid 1px #ddd;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.NewRecord .slds-form-element {
+  width: 100% !important;
+}
+
+.NewRecord label.slds-form-element__label {
+  padding: 0 5px;
+  font-size: 14px;
+  color: #000;
+  min-width: 150px;
+}
+
+.NewRecord .MuiBox-root {
+  padding: 0 15px;
+}
+
+.NewRecord .slds-text-body_regular {
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.NewRecord .slds-select {
+  min-width: 180px;
+}
+
+/* CSS for New Records End here */
+
+/* CSS for View Records Start here */
+
+.SideBarViewRecord {
+  background: #f7f7f7;
+  height: 100vh;
+}
+
+.SideBarViewRecord .card {
+  border: none;
+}
+
+.SideBarViewRecord .card-header {
+  padding: 0px;
+  border: none;
+}
+
+.SideBarViewRecord .btn-link {
+  color: #b13537;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.SideBarViewRecord .btn-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.SideBarViewRecord .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-left: 12%;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.SideBarViewRecord .card-body:hover {
+  background: #f7f7f7;
+}
+
+/* .SideBarViewRecord svg.MuiSvgIcon-root {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  background: #005173;
+  color: #fff;
+  border-radius: 50%;
+
+  width: 25px;
+  padding-left: 8px;
+} */
+.MainViewRecord {
+  background: #fff;
+
+  height: 100vh;
+  display: block;
+}
+
+.MainViewRecord .slds-wrap {
+  padding-bottom: 10px;
+}
+
+.font-col {
+  font-size: 15px !important;
+}
+
+.ViewRecords .NewRecord {
+  width: 98%;
+  margin: 1%;
+}
+
+.RightExtra {
+  margin-top: 13px;
+}
+
+.RightMostExtraView {
+  background: #fff;
+  height: 450px;
+  border: solid 1px #ddd;
+}
+
+.RightExtra .FormPartHead {
+  font-size: 0.5em;
+}
+
+.ViewRecords #headingOne .MuiSvgIcon-root {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(-0%, -50%);
+}
+
+.ViewRecords div#headingOne {
+  position: relative !important;
+}
+
+/* .ViewRecords .card {
+  overflow: initial !important;
+} */
+.ViewRecords .slds-page-header {
+  position: relative !important;
+}
+
+.ViewRecords .slds-media__figure {
+  position: absolute;
+  bottom: -18px;
+  left: -10px;
+  background: #005173;
+  color: #fff;
+  border-radius: 0 18px 18px 0;
+  height: 42px;
+  line-height: 31px;
+  width: 32px;
+  box-shadow: 6px 0px 5px #00000040;
+}
+
+.ViewRecords .slds-form-element__static {
+  min-height: 14px !important;
+}
+
+.fontWeight_RecordView {
+  font-weight: 800;
+  font-size: $font-size-sm;
+  color: #2d3436;
+}
+
+.btnUpdate_RecordView {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.bgColorBorder_RecordView {
+  background-color: #f7f7f7;
+  border: 2px solid #e6e6e6;
+}
+
+.bgColorFFFBorder_RecordView {
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+}
+
+.textColor_RecordView {
+  color: #2d3436;
+  font-size: 15px;
+}
+
+.header_Top_View {
+  background-color: #f7f7f7;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border: 2px solid #e6e6e6;
+  padding: 5px 10px;
+}
+
+.header_Bottom_View {
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 2px solid #e6e6e6
+}
+
+.recordNameIcon {
+  max-width: 35px;
+}
+
+.RecordSearchBar {
+  margin: 5px 0 15px 0;
+}
+
+.RecordSearchBar .btn.btn-primary {
+  background: #000;
+  border: none;
+  border-radius: 0 19px 20px 0;
+  margin: 2px 0 0 -4px
+}
+
+.react-bootstrap-table .dropdown-toggle {
+  background: #000;
+}
+
+.search-label input#search-bar-0 {
+  height: 36px;
+  border-radius: 17px 0 0 17px;
+  width: 21rem;
+}
+
+.createFormBottomButtons {
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.search-label {
+  margin: 0.3rem 0 0.2rem 0;
+}
+
+button#pageDropDown {
+  padding: 0 6px;
+  font-size: .81rem;
+  background: #000;
+  border: none;
+}
+
+.recordHead,
+.header_createeditobject {
+  margin: 10px 0;
+  padding: .5rem;
+  background: #f7f7f7;
+  border-radius: 0 0 7px 7px;
+  border-bottom: solid 5px #ddd !important;
+
+  .recordName {
+    font-size: $font-size + 0.2rem;
+    font-weight: bold;
+    vertical-align: sub;
+    padding: 0px 7px;
+
+  }
+
+  .recordSubName {
+    font-size: $font-size-sm;
+    font-weight: 500;
+    vertical-align: sub;
+
+  }
+}
+
+.createRecordFooterButton.col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/* CSS for View Records End here */
+
+/* input label bold className */
+.input-bold_label {
+  font-weight: bold;
+}
+
+.input-font_label {
+  font-size: 0.8rem;
+}
+
+.button_horizontal_align.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input-bold_label.horizontal_align_input.form-group {
+  display: flex;
+}
+
+.input-bold_label.horizontal_align_input.label_input_width.form-group {
+  width: 80%;
+}
+
+label.form-label {
+  width: 30%;
+}
+
+input#ProjectDuration {
+  margin-left: -6%;
+}
+
+input.margin_input_datepicker {
+  border: 2px solid #e6e6e6;
+
+}
+
+input.datepicker_border {
+  // margin-left: 0.5rem !important;
+  border: 2px solid #e6e6e6;
+}
+.react-datepicker-wrapper , .progressBar{
+  width: 100%;
+ input {
+     width: 100%;
+  }
+}
+
+input.date_picker_bordr {
+  border: 2px solid #e6e6e6;
+}
+
+#scrollIntoView_div {
+  height: 1500px;
+  width: auto;
+  overflow: auto;
+  background: transparent;
+}
+
+#BasicProjectInformation {
+  height: 270px;
+  width: 1220px;
+  background-color: transparent;
+}
+
+#TimingsDuration {
+  height: 270px;
+  width: 1220px;
+  background-color: transparent;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.recordViewMain {
+  .nav-item {
+    padding: 6px 15px;
+    font-size: $font-size-sm - .05rem;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: solid 1px #ddd !important;
+    margin-right: 5px;
+    background: #ddd;
+    color: #000;
+  }
+
+  .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    box-shadow: inset #00000054 1px 1px 5px 0px;
+  }
+}

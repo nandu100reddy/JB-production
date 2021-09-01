@@ -1,0 +1,47 @@
+.objectWrapper {
+
+  display: block;
+}
+
+.table {
+
+  th {
+    font-size: $font-size - .15rem;
+    padding: .5rem;
+    background: #f7f7f7;
+  }
+
+  tr {
+    font-size: $font-size - .15rem;
+    padding: .5rem;
+  }
+
+  td {
+    padding: .55rem 0.55rem .55rem .55rem;
+    font-size: $font-size-sm;
+
+    .btn {
+      font-size: $font-size-sm;
+      text-decoration: none;
+      color: #b12f2d;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  .btn {
+    padding: 0rem
+  }
+}
+
+.heading_object_screens {
+  padding: .55rem;
+  font-weight: 800;
+  background: #f7f7f7;
+
+
+}
+
+.mtb20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+//All Plugin SCSS file Import here
+
+@import "bootstrap/scss/bootstrap.scss";
+
+// All common file SCSS file Import Here
+
+@import "./app/assets/styles/Variables";
+@import "./app/assets/styles/Mixin";
+@import "./app/components/common/errorBoundary/ErrorBoundary.scss";
+@import "./app/assets/styles/Common";
+@import './app/components/common/dataTable/DataTable';
+
+// Page style SCSS file Import here
+
+//@import './app/containers/home/Home';x
+//@import './app/containers/dashboard/Dashboard';
+// @import FrontEnd Style SCSS here
+@import "./app/containers/frontendUser/forgetPassword/ForgetPassword";
+@import "./app/containers/frontendUser/loginSignup/Login";
+@import "./app/containers/frontendUser/loginSignup/SignUp";
+@import "./app/containers/frontendUser/record/Record";
+@import "./app/components/common/header/Header";
+@import "./app/containers/frontendUser/home/Home";
+
+// @import Setup Style SCSS here
+
+@import './app/containers/setup/common/HeaderSetup';
+@import './app/containers/setup/common/Sidebar';
+@import './app/containers/setup/objects/Objects';
+@import './app/containers/setup/fields/Fields';
+@import './app/containers/setup/applications/Applications';
+@import './app/containers/setup/Profile/Profile';
+
+//@import './app/containers/settings/Settings';

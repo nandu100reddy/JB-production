@@ -1,0 +1,189 @@
+// Body Common Styles
+body {
+  font-family: $font-family !important;
+}
+
+// SCSS code for Loader
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  background-color: $loader-bg-color;
+
+  svg {
+    -webkit-animation: icon-spin 2s infinite linear;
+    animation: icon-spin 1s infinite linear;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    color: $loader-color;
+    font-size: $font-size-lg + 2;
+  }
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+// Css Styles for Input Field start Here
+
+// Css Styles for Input Field end here
+
+// Css Styles for checkbox Field start Here
+
+// Css Styles for checkbox Field end here
+
+// Css Styles for button Field start Here
+.btn {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.primary-btn {
+  box-shadow: 0px 2px 2px #fff;
+  background-color: #159aff;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.btn-dark {
+  text-decoration: none !important;
+  font-weight: 500;
+  border-radius: $button-border-radius;
+  background: $button-dark;
+  color: #fff;
+  font-family: $font-family;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
+
+.btn-blue {
+    background: $background-transparent;
+    color: $link-color;
+    border: 1px solid $link-color;
+    &:hover{
+      background: $link-color;
+      color: $text-white-color;
+      border: 1px solid $link-color;
+    }
+    &:focus{
+      background: $link-color;
+      color: $text-white-color;
+      border: 1px solid $link-color;
+      box-shadow:none;
+    }
+
+}
+
+.blue:hover {
+  box-shadow: 0px 2px 2px rgba(90, 183, 254, 0.2);
+  color: #fff !important;
+}
+
+.link {
+  color: #159aff;
+  text-decoration: none !important;
+}
+
+// Css Styles for button Field end here
+
+// Css Styles for Common Field start Here
+
+.is-invalid .invalid-feedback {
+  display: block;
+}
+
+.requiredInstruction {
+  text-align: right;
+  font-size: $font-size-sm - 0.19rem;
+  color: $error-color;
+  margin: $margin + 0.2rem 0 $margin 0;
+  font-family: $font-family;
+}
+
+label {
+  sup {
+    font-size: $font-size-sm;
+    color: $error-color;
+    left: 2px;
+    top: -3px;
+    font-family: $font-family;
+  }
+
+  display: inline-block;
+  margin: $margin 0 $margin - 0.2rem 0;
+  font-size: $font-size-sm - 0.075rem !important;
+  text-transform: capitalize;
+  font-family: $font-family;
+}
+
+.afterLoginMsg {
+  font-size: $font-size;
+  color: $error-color;
+}
+
+.inlineLabelInput {
+  display: flex;
+
+  .form-label {
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-top: 6px;
+    width: 100%;
+    max-width: 200px;
+    text-align: right;
+  }
+
+  .input-group {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+.inlineBtnWrap {
+  .form-group {
+    display: inline-block;
+  }
+}
+
+#rememberMerememberMe {
+  margin: $margin + 0.465rem 0 $margin + 0.5rem $margin - 1.6rem;
+}
+
+// Css Styles for Common Field end here
+.logo img {
+  width: 74px;
+}
+
+.form-control {
+  font-size: $font-size-sm;
+}

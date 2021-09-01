@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+//All Color Variables define Here
+$background-white-color: #fff;
+$text-white-color: #fff;
+$background-color: #f0f0f0 !default;
+$border-color: #aeaeae !default;
+$highlighted-color: #3dcc4a !default;
+$muted-color: #ccc !default;
+$selected-color: #216ba5 !default;
+$text-color: #000 !default;
+$header-color: #000 !default;
+$disabled-color: lighten($muted-color, 10%) !default;
+$error-color: #f00 !default;
+$loader-color: #216ba5 !default;
+$loader-bg-color: rgba(133, 150, 158, 0.9) !default;
+$text-hover-color: #b12f2d;
+$link-color: #0070d2;
+$button-dark: #000;
+$background-transparent:transparent;
+$default-gray:#ddd;
+
+
+
+//All Default Variables define Here
+$border-radius: 0.3rem !default;
+$day-margin: 0.166rem !default;
+$font-size-sm: 0.8rem !default;
+$font-size: 1rem !default;
+$font-size-md: 1.5rem !default;
+$font-size-lg: 2rem !default;
+$button-border-radius: 5px !default;
+
+$border-radius-tbl: 0 17px 17px 0;
+$box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+$dropdown-border-radius:0 0 6px 6px;
+$color-dark-gray:#666;
+
+$padding-zero:0px !default;
+
+// $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "Montserrat",
+sans-serif;
+$item-size: 1.7rem !default;
+$margin: 0.4rem !default;
+$navigation-size: 0.45rem !default;
+$triangle-size: 8px !default;
+$font-weight-bold: 800;

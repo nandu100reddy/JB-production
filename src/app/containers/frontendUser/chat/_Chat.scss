@@ -1,0 +1,430 @@
+////chat scss
+
+.panel .panel-footer,
+.panel > :last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.panel .panel-heading,
+.panel > :first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.media-block .media-left {
+  display: block;
+  float: left;
+}
+
+.media-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-block .media-right {
+  float: right;
+}
+
+.media-block .media-body {
+  display: block;
+  overflow: hidden;
+  width: auto;
+}
+
+.middle .media-left,
+.middle .media-right,
+.middle .media-body {
+  vertical-align: middle;
+}
+
+.thumbnail {
+  border-radius: 0;
+  border-color: #e9e9e9;
+}
+
+.tag.tag-sm,
+.btn-group-sm > .tag {
+  padding: 5px 10px;
+}
+
+.tag:not(.label) {
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: 1px solid #cdd6e1;
+  font-size: 12px;
+  line-height: 1.42857;
+  vertical-align: middle;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.text-muted,
+a.text-muted:hover,
+a.text-muted:focus {
+  color: #acacac;
+}
+.text-sm {
+  font-size: 0.9em;
+}
+.text-5x,
+.text-4x,
+.text-5x,
+.text-2x,
+.text-lg,
+.text-sm,
+.text-xs {
+  line-height: 1.25;
+}
+
+.btn-trans {
+  background-color: transparent;
+  border-color: transparent;
+  color: #929292;
+}
+
+.btn-icon {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.btn-sm,
+.btn-group-sm > .btn,
+.btn-icon.btn-sm {
+  padding: 5px 10px !important;
+}
+
+.social-comment img {
+  width: 32px;
+  margin-right: 10px;
+}
+.social-comment textarea {
+  font-size: 12px;
+}
+///////////////chat member css////////////////
+.chat-member {
+  thead {
+    padding: 10px;
+    border-bottom: 2px solid grey;
+  }
+  td {
+    padding: 10px;
+  }
+}
+
+/*Custom Css for Chatter AK - 19-8-21*/
+
+/////////////Profile csss/////////////////
+.chat {
+  .coverimage-bx{
+      position: relative;
+      width: 100%;
+      background: url(http://jbwork.in/jbplatform-images/images/bg-pettrtnn.jpg);
+      min-height: 250px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: url(http://jbwork.in/jbplatform-images/images/cam-profile.svg)
+        no-repeat;
+      width: 25px;
+      height: 25px;
+      right: 30px;
+      top: 20px;
+      filter: contrast(0.2);
+      cursor: pointer;
+    }
+
+  }
+
+
+  .bor-custom{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .profile-row-m {
+    margin: 0 0 10px;
+    min-height: 52px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 6px;
+
+    .profi-descrition {
+      font-size: 0.8rem;
+      width: fit-content;
+      color: #444;
+    }
+    .profi-des-main {
+      font-size: 1rem;
+      line-height: normal;
+      padding: 8px 0 0;
+      text-transform: capitalize;
+    }
+  }
+  .profile-head-strip {
+    background: #f7f7f7;
+    padding: 12px 15px;
+    margin: 0 0 10px;
+    box-shadow: 0 2px 3px 0 #00000020;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .nav-tabs {
+    .active {
+      background: #ddd;
+    }
+  }
+
+  .profile-header {
+    display: flex;
+    box-shadow: 0 2px 3px 0 #00000020;
+    padding: 15px 0px;
+    border: 1px solid #e8e8e8;
+    background: white;
+    background-position: right;
+    position: relative;
+    margin: -70px auto 0;
+    width: 90%;
+    border-radius: 5px;
+
+    .u_profile_email {
+      font-style: italic;
+    }
+    .u_profile_about {
+      background: #f7f7f7;
+      padding: 15px;
+      margin: 10px 0 0;
+      border-left: 2px solid #b12f2d;
+      position: relative;
+
+      span {
+        margin-right: 15px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        background: url(http://jbwork.in/jbplatform-images/images/icons8-edit.svg)
+          no-repeat;
+        width: 20px;
+        background-size: contain;
+        height: 19px;
+        right: 0px;
+        top: 0;
+        padding: 5px;
+        filter: contrast(0.2);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .edit-side-bx {
+    float: right;
+  }
+  .u_profile_follow {
+    display: inline-flex;
+    margin: 0 10px 0 0;
+  }
+
+  .profile-img {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 220px;
+    border: 3px solid #fff;
+    position: relative;
+  }
+
+  .profile-img-primary {
+    position: relative;
+    margin: -98px 0 0;
+    width: 185px;
+    float: right;
+
+    &:after {
+      content: "";
+      position: absolute;
+      background: url(http://jbwork.in/jbplatform-images/images/cam-profile.svg)
+        no-repeat;
+      width: 18px;
+      height: 18px;
+      right: 13px;
+      top: 122px;
+      filter: contrast(0.2);
+      cursor: pointer;
+    }
+  }
+
+  .u_profile_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+  }
+
+  .profile-desc {
+    .profile-sub__desc {
+      background: transparent;
+      padding: 10px 0;
+      margin: 0 0 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      text-transform: capitalize;
+
+      .profile-item-one {
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+    }
+
+    .m-img-class{
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 8px 10px;
+      border-bottom: 1px solid #ddd;
+
+      &:last-child{
+        border:none
+      }
+
+      .img-sm {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-right: 15px;
+      }
+    }
+    
+  }
+
+  .shareOptionText {
+    font-size: 0.8rem;
+  }
+  .u_profile_follow {
+    button {
+      background: transparent;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 6px 16px;
+      font-size: 1rem;
+      color: #444;
+      font-weight: 700;
+
+      &:hover {
+        background: #f7f7f7;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+//////////////profile css end///////////
+
+#chat-tab-tabpane-post {
+  .single-line {
+    input {
+      padding: 8px 15px 70px;
+      border: 1px solid #ccc;
+      font-size: 0.875rem !important;
+      position: relative !important;
+      background: white !important;
+
+      &:focus-visible {
+        outline: none !important;
+      }
+    }
+  }
+  .shareOption {
+    border: 1px solid #ccc;
+    padding: 7px 40px;
+    border-radius: 5px;
+    background: white;
+    margin-right: 10px;
+  }
+
+  .img-sm {
+    width: 46px;
+    height: 46px;
+    border-radius: 30px;
+  }
+  .media-body {
+    padding: 0 0 0 20px;
+  }
+  .media-body {
+    .media-block {
+      background: #f7f7f7;
+      padding: 20px 15px 0;
+      margin-bottom: 10px;
+    }
+  }
+  .panel-body {
+    padding: 15px 20px;
+  }
+
+  .panel {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 3px 0 #ddd;
+    border-radius: 0px;
+    &:nth-child(1) {
+      background: #f7f7f7;
+    }
+    .panel {
+      background: white;
+      &:nth-child(1) {
+        background: #fff;
+      }
+    }
+  }
+
+  .text-black {
+    font-size: 0.8rem;
+    color: #000;
+  }
+
+  .mar-btm .text-semibold.media-heading.box-inline {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0070d2;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .mar-top {
+    margin-top: 15px;
+  }
+
+  .dropdown-menu.show {
+    display: block;
+    min-width: 100%;
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 6px 6px;
+    margin-top: -0.1%;
+    box-shadow: 0 2px 3px 0 #ddd;
+  }
+
+  .media-header {
+    .dropdown {
+      .dropdown-toggle {
+        background: transparent;
+        border: 1px solid #ccc;
+        color: #666;
+        padding: 8px 7px 5px;
+        line-height: 10px;
+
+        &:focus {
+          outline: none !important;
+          box-shadow: none !important;
+        }
+        &:hover {
+          background: #f7f7f7;
+        }
+      }
+    }
+  }
+}
+.profile-info {
+  span {
+    font-weight: 700;
+  }
+}

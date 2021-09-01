@@ -1,0 +1,61 @@
+.profiletableitem{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tab-content {
+    width: 100%;
+    display: block;
+}
+.inlineBtnWrap  {
+    background-color: transparent;
+    label{
+        padding: 0 10px 0 0;
+    }
+}
+
+/*Sales Profile - 5 Tabs Css*/
+div#BasicInfo-tabpane-BasicInfo {
+    border: 1px solid #80808040;
+    padding: 0 0 20px;
+}
+.application-bx{
+
+    th:nth-child(3) {
+        width: 6rem;
+    }
+    th:nth-child(4) {
+        width: 6rem;
+    }
+}
+.sys-setting-tab{
+    th:nth-child(5) {
+        width: 8rem;
+    }
+    th:nth-child(6) {
+        width: 8rem;
+    }
+}
+.admin-settings{
+    th:nth-child(3) {
+        width: 8rem;
+    }
+    th:nth-child(4) {
+        width: 10rem;
+    }
+}
+/*End of Sales Profile - 5 Tabs Css*/
+
+.exten_group-info-bx {
+    width: 100%;
+    display: block;
+}
+
+.profile_heading{
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+}
+.profile_des{
+    font-size: $font-size-sm;
+}
+

@@ -1,0 +1,91 @@
+.img-holder {
+  background-image: url(https://mockuptree.com/wp-content/uploads/edd/2018/05/Dashboard-Woman-Macbook.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: 0 50%;
+  min-height: 100vh;
+  display: block;
+}
+.register-page {
+  background: #f7f7f7;
+}
+.register-page .img-holder {
+  background-image: url(https://i1.pickpik.com/photos/466/668/948/workspace-workplace-computer-macbook-preview.jpg);
+}
+
+.logo {
+  margin: 0 !important;
+  width: 126px !important;
+}
+.loginHead {
+  line-height: 19px;
+  margin: 10px 0;
+  b {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  span {
+    color: #060606;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+}
+.loginPage {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  background: #f7f7f7;
+}
+.loginPage .holder {
+  margin: 0 auto;
+  padding-top: 18vh;
+}
+
+.holder-inner {
+  width: auto;
+  max-width: 406px;
+  margin: 0 auto;
+  min-height: 400px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  border-radius: 2px;
+  transition: all 0.1s ease-in-out;
+  overflow-y: auto;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+}
+.relatedFormLinks {
+  margin: $margin + 0.5rem 0 $margin 0;
+  font-size: $font-size-sm + 0.02rem;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  padding: 6px 10px;
+  text-transform: capitalize;
+  font-family: $font-family;
+  text-decoration: none !important;
+  text-align: center;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  background: #f7f7f7;
+}
+.SignupBtnOnLogin {
+  display: block;
+  margin: $margin + 0.2rem 0 $margin 0;
+  font-size: $font-size-sm + 0.15rem;
+  text-transform: capitalize;
+  font-family: $font-family;
+  text-decoration: none !important;
+  font-weight: $font-weight-bold;
+  text-decoration: none !important;
+  a {
+    text-decoration: none !important;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}

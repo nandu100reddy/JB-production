@@ -1,0 +1,288 @@
+.objectWrapper {
+  display: block;
+}
+
+.newObject_objectList {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  margin-top: 2%;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 2px solid #e6e6e6
+}
+
+.verysmall_text_objectList {
+  font-size: xx-small;
+}
+
+.col_margin_leftside_objectList {
+  margin: 1% 0% 1% 1%
+}
+
+.button_margin_objectList {
+
+  margin-top: 15%;
+  margin-left: 18%;
+}
+
+.table_div_margin_objectList {
+  margin-top: 1%;
+}
+
+.table_Heading_objectList {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #e6e6e6;
+  justify-content: space-around;
+}
+
+.heading_text_objectList {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+
+}
+
+.table_data_objectList {
+  margin: 1% 1% 1% -50%;
+  font-size: small;
+
+}
+
+.table_Data_Manage_objectList {
+  background-color: #fff;
+  display: flex;
+  // flex-direction: row;
+  border: 2px solid #e6e6e6;
+  justify-content: space-around;
+
+}
+
+.table_row_data_objectList {
+  display: flex;
+  flex-direction: row;
+  //  justify-content: space-around;
+}
+
+.table_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px
+}
+
+.padding_bottom {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.btn_searchButton__objectList {
+  border-radius: 0px;
+}
+
+.form-control-sm_ObjectList {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0rem;
+}
+
+.save_ViewObject {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px !important;
+  width: 170px;
+  margin: 0px 8px;
+}
+
+.heading_ViewScreen {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.objectname_ViewScreen {
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+.col_padding_ViewScreen {
+  margin-top: 2%;
+}
+
+.grey_font_ViewScreen {
+  font-size: 10px;
+  color: grey
+}
+
+.billing__ViewScreen {
+  font-size: 13px;
+}
+
+.arrow_ViewScreen {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.grey_Button {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.txtRight {
+  text-align: right;
+}
+
+.createdModifiedBy {
+  margin-top: 20px;
+}
+
+.supportiveText {
+  font-size: .75rem;
+  margin-left: 4px;
+}
+
+.accordion.accordion_billing>.card>.card-header {
+
+  position: relative;
+  border-bottom: 0px;
+}
+
+.accordion_billing.accordion .card-body {
+  padding: 1.25rem 0;
+  font-size: $font-size-sm;
+}
+
+.button_Row_editObject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3%;
+  margin-left: 70%
+}
+
+.heading_CreateEditObject {
+  color: #259cdc;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+button.btn.btn-dark {
+  padding: .15rem 1rem;
+  min-width: 140px;
+}
+
+.heading_object_screens {
+
+  padding: 0rem;
+}
+
+.border_createEditscreen {
+  border: 2px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.header_createeditobject {
+  border: 2px solid #e6e6e6;
+  background-color: #f7f7f7;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 20px;
+  padding: 10px 15px;
+
+  .heading_eachline {
+    font-weight: bold;
+    font-size: $font-size;
+  }
+
+  .heading_eachlinename {
+    color: $selected-color;
+    font-weight: bold;
+  }
+
+  .subheading_eachline {
+    font-size: $font-size-sm;
+  }
+}
+
+.objectMainView {
+  padding: $padding-zero;
+  margin: 10px 0;
+}
+
+
+.horizontal_line {
+  display: "flex";
+  justify-content: flex-end;
+}
+
+.ObjectName_CreateEditObject.form-group {
+  width: 27%;
+}
+
+.description_CreateEditObject.form-group {
+  width: 60%;
+}
+
+.textgray_viewField {
+  font-size: 12px;
+  color: #636e72
+}
+
+.rowdir_viewField {
+  display: flex;
+  flex-direction: row;
+}
+
+.search_List_Input.form-group {
+  width: 300px;
+}
+
+.listfield_list {
+  margin-left: 0;
+  margin-right: 0px;
+}
+
+.newCustomfield_ViewObject {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.actionSeperator {
+  margin: 0 7px;
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.tableButtonCenter {
+  display: flex;
+  justify-content: center;
+
+  .btn-dark {
+    padding: 3px 10px !important;
+    width: auto !important;
+    margin: 11px 5px 20px 5px;
+  }
+}

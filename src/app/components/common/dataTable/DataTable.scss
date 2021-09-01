@@ -1,0 +1,190 @@
+.pagination>.page-item {
+    padding-left: 0px !important;
+}
+
+.table-bordered {
+    th,
+    td {
+        word-break: break-word;
+
+        .dropdown-toggle {
+            background: #f7f7f7;
+            border: solid 1px #c3c0c0;
+            padding: 5px 10px 0 10px !important;
+            color: #000 !important;
+        }
+    &.hideColumn {
+        display: none;
+    }
+    }
+
+
+}
+/*Common Css For Table*/
+.custom_table_wrap {
+    background: transparent;
+
+    .ScrollbarsCustom {
+        width: 100% !important;
+    }
+    .ScrollbarsCustom-Wrapper{
+        width: 100% !important;
+    }
+    .table{
+        table-layout:inherit !important;
+    }
+    .ScrollbarsCustom-Content{
+        display: block !important;
+    }
+    .dropdown-full-w .form-group{
+        width: 100%;
+        .css-tlfecz-indicatorContainer {
+            padding: 2px;
+        }
+        .css-1gtu0rj-indicatorContainer{
+            padding: 2px;
+        }
+        .css-1wa3eu0-placeholder{
+            font-size: 0.725rem;
+        }
+    }
+}
+
+/*End of Common Css For Table*/
+
+.dataTable-wrap{
+    .RecordSearchButton{
+        border-radius: $border-radius-tbl;
+        margin-left: -4px;
+        margin-top: 1px;
+    }
+}
+
+.dataTableMainWrap {
+    position: relative;
+
+    >ul.alphabetWrap {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        padding: 0;
+        margin: 15px 15px 0 0;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            font-size: 12px;
+            margin: 0px 3px;
+            text-transform: capitalize;
+            padding: 2px;
+            cursor: pointer;
+
+            &.active {
+                color: #c71616;
+                font-weight: 700;
+
+
+            }
+        } 
+    }
+
+    .react-bootstrap-table-pagination-total {
+        font-size: $font-size-sm !important;
+    }
+
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: #000;
+        border-color: #000;
+    }
+
+    #viewButton .btn-link {
+        color: #1b8ac5;
+        text-align: left;
+    }
+
+
+
+    .btn-primary {
+        border-radius: 0 17px 17px 0;
+        margin-left: -4px;
+        margin-top: 1px;
+    }
+
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-primary.dropdown-toggle {
+        color: #fff !important;
+        background-color: #000;
+      
+      
+        border-color: #000;
+
+    }
+
+    .dropdown-toggle {
+        border-radius: 5px;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+        min-width: 0rem;
+        background-color: #ffffff;
+        border-radius: 0px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        margin-top: -0.1%;
+
+        .dropdown-item {
+            font-size: $font-size-sm !important;
+        }
+    }
+}
+/*End Common Css For Table*/
+
+.width-50{
+    width: 50px !important;
+}
+
+.width-75{
+    width: 75px !important;
+}
+
+.width-100{
+    width: 100px !important;
+}
+
+.width-125{
+    width: 125px !important;
+}
+
+.width-150{
+    width: 150px !important;
+}
+
+.width-165{
+    width: 165px !important;
+}
+
+.width-175{
+    width: 175px !important;
+}
+
+.width-180{
+    width: 180px !important;
+}
+
+.width-210{
+    width: 210px !important;
+}
+
+.width-250{
+    width: 250px !important;
+}
+
+.width-280{
+    width: 280px !important;
+}
+
