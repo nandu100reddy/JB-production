@@ -1,14 +1,12 @@
-FROM node:latest
+FROM node:14
 
-MAINTAINER Abhishek Modi 
+WORKDIR /usr/src/app
 
-RUN echo "Tryin to build my first application"
-
-COPY . /var/www
-
-WORKDIR /var/www
+COPY package*.json ./
 
 RUN npm install
+
+COPY . .
 
 EXPOSE 3000
 
